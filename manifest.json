@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Ergo",
+    "version": "1.0",
+    "description": "A Chrome extension to remind you to drink water, sit straight, walk, and do eye exercises.",
+    "permissions": [
+      "alarms",
+      "notifications"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
+  
